@@ -174,7 +174,7 @@ int main(void){
          if( ledState1 )
             ledState1 = OFF;
          else
-            ledState1 = ON;
+            ledState1 = OFF;
          digitalWrite( LED1, ledState1 );
 
          /* Si pasaron 20 delays le aumento el tiempo */
